@@ -64,3 +64,12 @@
       url('./montserrat-v24-latin/montserrat-v24-latin-900italic.woff')
       format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: italic;
+  font-weight: 900;
+  src: local(''),
+    url('./Work_Sans/static/WorkSans-Medium.ttf')
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+}

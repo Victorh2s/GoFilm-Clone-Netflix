@@ -1,0 +1,17 @@
+// Vitest Snapshot v1
+
+exports[`<SectionContainer /> > should match to snapshot 1`] = `
+.c0 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A illo possimus minus aliquid nemo minima, doloribus harum eius sint recusandae alias eum rerum ab neque et, blanditiis, molestiae exercitationem quas?
+  </div>
+</div>
+`;

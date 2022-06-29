@@ -1,0 +1,105 @@
+// Vitest Snapshot v1
+
+exports[`<ButtonList /> > should match to snapshot 1`] = `
+.c3 {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.c3 a,
+.c3 a:visited,
+.c3 a:link {
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c3 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c0 {
+  border: none;
+  background: rgba(255,255,255,10%);
+  padding: 0.5rem 2rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.c0:hover {
+  background: rgba(255,255,255,20%);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 >svg {
+  width: 4rem;
+  color: #FFFFFF;
+  padding: 0 0.5rem;
+}
+
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 1.6rem;
+  }
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    <a
+      class="c1"
+      href="list/add/2"
+    >
+      <svg
+        aria-hidden="true"
+        class="c2"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4 9H16V5.6c0-.6-.4-.6-1-.6s-1 0-1 .6V9h-3.4c-.6 0-.6.4-.6 1s0 1 .6 1H14v3.4c0 .6.4.6 1 .6s1 0 1-.6V11h3.4c.6 0 .6-.4.6-1s0-1-.6-1zm-12 0H.6C0 9 0 9.4 0 10s0 1 .6 1h6.8c.6 0 .6-.4.6-1s0-1-.6-1zm0 5H.6c-.6 0-.6.4-.6 1s0 1 .6 1h6.8c.6 0 .6-.4.6-1s0-1-.6-1zm0-10H.6C0 4 0 4.4 0 5s0 1 .6 1h6.8C8 6 8 5.6 8 5s0-1-.6-1z"
+        />
+      </svg>
+       
+      <div
+        class="c3"
+      >
+        Minha Lista
+      </div>
+    </a>
+  </button>
+</div>
+`;

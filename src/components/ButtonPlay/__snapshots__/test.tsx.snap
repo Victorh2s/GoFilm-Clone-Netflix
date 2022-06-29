@@ -1,0 +1,113 @@
+// Vitest Snapshot v1
+
+exports[`<ButtonPlay /> > should match to snapshot 1`] = `
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c4 {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.c4 a,
+.c4 a:visited,
+.c4 a:link {
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c4 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c0 {
+  border: none;
+  background: rgba(255,255,255,70%);
+  padding: 0.5rem 2rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.c0:hover {
+  background: rgba(255,255,255,80%);
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #0d0c0c;
+}
+
+.c1 .c3 {
+  color: #0d0c0c;
+}
+
+.c1 >svg {
+  width: 4rem;
+  color: black;
+  padding: 0 0.5rem;
+}
+
+@media (max-width:768px) {
+  .c4 {
+    font-size: 1.6rem;
+  }
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    <a
+      class="c1"
+      href="/watch/5"
+    >
+      <svg
+        aria-hidden="true"
+        class="c2"
+        fill="currentColor"
+        focusable="false"
+        role="Play"
+        viewBox="0 0 16 16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"
+        />
+      </svg>
+       
+      <div
+        class="c3 c4"
+      >
+        Assistir
+      </div>
+    </a>
+  </button>
+</div>
+`;

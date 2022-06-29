@@ -3,12 +3,15 @@ export const theme = {
     primaryColor: '#0A1128',
     secondaryColor: '#dc143c',
     white: '#FFFFFF',
-    mediumGray: '#DDDDDD',
+    mediumGray: '#C6C8CC',
+    dark: '#0d0c0c',
+    green: '#46d369',
   },
   font: {
     family: {
       default: "'Open Sans', sans-serif",
       secondary: "'Montserrat', sans-serif",
+      worksans: "'Work Sans', sans-serif",
     },
     sizes: {
       xsmall: '8rem',
