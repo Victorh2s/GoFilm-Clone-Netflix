@@ -23,10 +23,10 @@ export const ItensApi = ({
   return (
     <Styled.itens>
       <Styled.Vote> {vote} pontos</Styled.Vote>
-      <Styled.Year> Ano {date}</Styled.Year>
+      <Styled.Year> {date}</Styled.Year>
       <Styled.Season>
-        {seasons} temporada
-        {seasons !== 1 ? 's' : ''}
+        {seasons === null ? '' : `${seasons} temporada`}
+        {seasons > 1 ? 's' : ''}
       </Styled.Season>
       <Styled.Description>{description}</Styled.Description>
       <Styled.Genres>

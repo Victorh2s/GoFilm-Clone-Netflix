@@ -1,10 +1,10 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
 import { Science_fiction } from 'service';
-import { SlideFilms, SlideFilmsProps } from '.';
+import { ShowPosters, ShowPostersProps } from '.';
 
 export default {
-  title: 'SlideFilms',
-  component: SlideFilms,
+  title: 'ShowPosters',
+  component: ShowPosters,
   args: {
     APIurl: {
       url: Science_fiction.url,
@@ -12,12 +12,12 @@ export default {
       slug: Science_fiction.slug,
     },
   },
-} as Meta<SlideFilmsProps>;
+} as Meta<ShowPostersProps>;
 
-export const Template: Story<SlideFilmsProps> = (args) => {
+export const Template: Story<ShowPostersProps> = (args) => {
   return (
     <div>
-      <SlideFilms {...args} />
+      <ShowPosters {...args} />
     </div>
   );
 };

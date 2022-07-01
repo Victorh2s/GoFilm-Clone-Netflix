@@ -169,14 +169,13 @@ exports[`<ItensApi /> > should match to snapshot 1`] = `
     <div
       class="c2"
     >
-       Ano 
+       
       2016
     </div>
     <div
       class="c3"
     >
-      5
-       temporada
+      5 temporada
       s
     </div>
     <div

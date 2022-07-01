@@ -53,11 +53,10 @@ export const ButtonRight = styled.button`
 `;
 
 export const Container = styled.div`
-  ${({ theme }) => css`
-
   display: flex;
   transition: all 250ms ease-in-out;
   overflow:hidden;
+
   :hover{
 
     ${ButtonLeft}{
@@ -69,5 +68,4 @@ export const Container = styled.div`
     }
   }
 
-  `}
 `;

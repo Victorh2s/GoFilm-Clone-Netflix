@@ -22,22 +22,12 @@ export const Vote = styled.div`
 `;
 
 export const Year = styled.div`
-  ${({ theme }) => css`
-
   display: inline-block;
   margin-right: 1.5rem;
-
-
-
-  `}
 `;
 
 export const Season = styled.div`
-  ${({ theme }) => css`
-
   display: inline-block;
-
-  `}
 `;
 
 export const Description = styled.div`

@@ -7,27 +7,6 @@ exports[`<Header /> > should match to snapshot 1`] = `
   text-transform: none;
 }
 
-.c15 {
-  font-size: 1.6rem;
-  color: #FFFFFF;
-  font-family: 'Open Sans',sans-serif;
-}
-
-.c15 a,
-.c15 a:visited,
-.c15 a:link {
-  color: #FFFFFF;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c15 a:hover {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-}
-
 .c0 {
   height: 97vh;
 }
@@ -59,6 +38,27 @@ exports[`<Header /> > should match to snapshot 1`] = `
 
 .c2 .c3 {
   max-width: 50%;
+}
+
+.c15 {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.c15 a,
+.c15 a:visited,
+.c15 a:link {
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c15 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
 }
 
 .c16 {
@@ -198,7 +198,7 @@ exports[`<Header /> > should match to snapshot 1`] = `
   <section
     aria-label="Wrapper"
     class="c0"
-    style="background-size: cover; background-position: center; background-image: url(https://image.tmdb.org/t/p/original/undefined);"
+    style="background-size: cover; background-position: center; background-image: url(https://image.tmdb.org/t/p/original//dd7EgfOEKPqQxWtBfAvjYZahbSc.jpg);"
   >
     <div
       class="c1"
@@ -208,7 +208,9 @@ exports[`<Header /> > should match to snapshot 1`] = `
       >
         <h1
           class="c3 c4"
-        />
+        >
+          The Boys
+        </h1>
         <div
           class="c5"
         >
@@ -216,36 +218,40 @@ exports[`<Header /> > should match to snapshot 1`] = `
             class="c6"
           >
              
+            8.4
              pontos
           </div>
           <div
             class="c7"
           >
-             Ano 
-            NaN
+             
+            1969
           </div>
           <div
             class="c8"
           >
-             temporada
+            3 temporada
             s
           </div>
           <div
             class="c9"
-          />
+          >
+            Em uma segunda temporada mais intensa e mais desesperada de THE BOYS, Butcher, Hughie e a equipe se recuperam de suas perdas na primeira temporada. Fugindo da lei, eles sofrem para lutar contra os Super-heróis. Enquanto Vought, a empresa que gerencia os heróis, entra em pânico com a ameaça dos Supervilões, e uma nova heroína, Stormfront, agita a empresa e desafia um Homelander já instável.
+          </div>
           <div
             class="c10"
           >
             <strong>
               Gêneros: 
             </strong>
+            Sci-Fi & Fantasy, Action & Adventure
           </div>
           <button
             class="c11"
           >
             <a
               class="c12"
-              href="/watch/undefined"
+              href="/watch/58321"
             >
               <svg
                 aria-hidden="true"
@@ -273,7 +279,7 @@ exports[`<Header /> > should match to snapshot 1`] = `
           >
             <a
               class="c17"
-              href="list/add/undefined"
+              href="list/add/58321"
             >
               <svg
                 aria-hidden="true"

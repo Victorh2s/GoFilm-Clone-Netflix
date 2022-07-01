@@ -1,0 +1,137 @@
+// Vitest Snapshot v1
+
+exports[`<ShowPosters /> > should match to snapshot 1`] = `
+.c2 {
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c0 {
+  padding: 0 0 5.5rem 0;
+  background: #0d0c0c;
+}
+
+.c0 .c1 {
+  text-align: center;
+  margin: 0 0 0.5rem 0;
+}
+
+.c8 {
+  position: absolute;
+  height: 27.1rem;
+  z-index: 1;
+  left: 0;
+  background: linear-gradient(to right ,black 15%,transparent);
+  border: none;
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.c8 >svg {
+  width: 6rem;
+  color: #FFFFFF;
+}
+
+.c5 {
+  position: absolute;
+  height: 27.1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  right: 0;
+  background: linear-gradient(to left ,black 15%,transparent);
+  border: none;
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.c5 >svg {
+  width: 6rem;
+  color: #FFFFFF;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  overflow: hidden;
+}
+
+.c3:hover .c7 {
+  opacity: 1;
+}
+
+.c3:hover .c4 {
+  opacity: 1;
+}
+
+.c6 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <h2
+      class="c1 c2"
+    >
+      Ficção Científica
+    </h2>
+    <div
+      aria-label="Container"
+      class="c3"
+      style="margin-left: 0px;"
+    >
+      <button
+        aria-label="Button Right"
+        class="c4 c5"
+      >
+        <svg
+          aria-hidden="true"
+          class="c6"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 16 16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      <button
+        aria-label="Button Left"
+        class="c7 c8"
+      >
+        <svg
+          aria-hidden="true"
+          class="c6"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 16 16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,4 +1,4 @@
-import { GetDatas, GetSerieInfo, Science_fiction } from '.';
+import { GetDatas, GetInfo, Science_fiction } from '.';
 import { vi, describe, expect } from 'vitest';
 
 describe('Test Functions', () => {
@@ -18,9 +18,9 @@ describe('Test Functions', () => {
     expect(datas).toEqual(null);
   });
 
-  it('should call fetch and GetSerieInfo with correct values', async () => {
-    const Mock = vi.fn().mockResolvedValue(GetSerieInfo(76479, 'tv'));
-    const datas = await GetSerieInfo(76479, 'tv');
+  it('should call fetch and GetInfo with correct values', async () => {
+    const Mock = vi.fn().mockResolvedValue(GetInfo(76479, 'tv'));
+    const datas = await GetInfo(76479, 'tv');
     const mock = await Mock();
     // console.log(mock);
 
@@ -28,8 +28,8 @@ describe('Test Functions', () => {
     expect(mock.name).toEqual('The Boys');
   });
 
-  it('should call fetch and GetSerieInfo and Reject Values', async () => {
-    const datas = await GetSerieInfo(null, null);
+  it('should call fetch and GetInfo and Reject Values', async () => {
+    const datas = await GetInfo(null, null);
 
     expect(datas.success).toEqual(false);
   });

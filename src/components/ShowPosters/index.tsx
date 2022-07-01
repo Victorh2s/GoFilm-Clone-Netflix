@@ -1,16 +1,16 @@
 import * as Styled from './styles';
 import { Heading } from '../Heading';
 import { useEffect, useState } from 'react';
-import { baseTopics, GetDatas } from './../../service';
+import { baseTopics, GetDatas } from '../../service';
 import { ChevronCompactLeft } from '@styled-icons/bootstrap/ChevronCompactLeft';
 import { ChevronCompactRight } from '@styled-icons/bootstrap/ChevronCompactRight';
 import { MapImg } from '../MapImg';
 
-export type SlideFilmsProps = {
+export type ShowPostersProps = {
   APIurl: baseTopics;
 };
 
-export const SlideFilms = ({ APIurl }: SlideFilmsProps) => {
+export const ShowPosters = ({ APIurl }: ShowPostersProps) => {
   const imagePath = 'https://image.tmdb.org/t/p/w500/';
   const [Scrollx, setScrollx] = useState(0);
   const [data, setData] = useState([]);
@@ -25,7 +25,7 @@ export const SlideFilms = ({ APIurl }: SlideFilmsProps) => {
   }, [APIurl]);
 
   const MovieRight = () => {
-    let x = Scrollx - 200;
+    let x = Scrollx - 180;
     if (x < -2700) {
       x = -2700;
     }

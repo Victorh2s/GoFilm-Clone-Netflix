@@ -1,9 +1,9 @@
 import { fireEvent, screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
-import { SlideFilms, SlideFilmsProps } from '.';
-import { Science_fiction } from './../../service';
+import { ShowPosters, ShowPostersProps } from '.';
+import { Science_fiction } from '../../service';
 
-const props: SlideFilmsProps = {
+const props: ShowPostersProps = {
   APIurl: Science_fiction,
 };
 
@@ -11,9 +11,9 @@ const props: SlideFilmsProps = {
 //button left
 //button right
 
-describe('<SlideFilms />', () => {
+describe('<ShowPosters />', () => {
   it('should render heading', () => {
-    renderTheme(<SlideFilms {...props} />);
+    renderTheme(<ShowPosters {...props} />);
 
     expect(
       screen.getByRole('heading', { name: 'Ficção Científica' }),
@@ -21,18 +21,18 @@ describe('<SlideFilms />', () => {
   });
 
   it('should put -150px in the left margin when right clicking', () => {
-    renderTheme(<SlideFilms {...props} />);
+    renderTheme(<ShowPosters {...props} />);
     const button = screen.getByLabelText('Button Right');
     const Container = screen.getByLabelText('Container');
 
     expect(button).toBeInTheDocument();
 
     fireEvent.click(button);
-    expect(Container).toHaveStyle({ 'margin-left': '-200px' });
+    expect(Container).toHaveStyle({ 'margin-left': '-180px' });
   });
 
   it('should leave margin left at 0 when left clicking', () => {
-    renderTheme(<SlideFilms {...props} />);
+    renderTheme(<ShowPosters {...props} />);
     const button = screen.getByLabelText('Button Left');
     const Container = screen.getByLabelText('Container');
 
@@ -40,5 +40,11 @@ describe('<SlideFilms />', () => {
 
     fireEvent.click(button);
     expect(Container).toHaveStyle({ 'margin-left': '0px' });
+  });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<ShowPosters {...props} />);
+
+    expect(container).toMatchSnapshot();
   });
 });

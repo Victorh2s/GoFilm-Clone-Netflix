@@ -19,11 +19,9 @@ describe('<ItensApi />', () => {
     expect(screen.getByText('9.5 pontos')).toHaveStyle({
       display: 'inline-block',
     });
-    expect(screen.getByText(/Ano 2016/i)).toBeInTheDocument();
-    expect(screen.getByText(/Ano 2016/i)).toHaveStyle({
-      display: 'inline-block',
-    });
+
     expect(screen.getByText(/5 temporadas/i)).toBeInTheDocument();
+    expect(screen.getByText(/2016/i)).toBeInTheDocument();
     expect(screen.getByText(/Descrição/i)).toBeInTheDocument();
     expect(screen.getByText(/terror, comédia/i)).toBeInTheDocument();
     expect(screen.getByText(/Assistir/i)).toBeInTheDocument();
