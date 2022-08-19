@@ -21,11 +21,7 @@ export const Menu = () => {
         background ? { background: '#0d0c0c' } : { background: 'transparent' }
       }
     >
-      <Styled.Logo
-        href="https://www.netflix.com/br/"
-        target="_self"
-        aria-label="Netflix"
-      >
+      <Styled.Logo href="/" target="_self" aria-label="Netflix">
         <Styled.Netflix src="/assets/image/netflix.svg" />
       </Styled.Logo>
 

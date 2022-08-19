@@ -36,7 +36,6 @@ export const ButtonRight = styled.button`
   ${({ theme }) => css`
   position: absolute;
   height: 27.1rem;
-  display: flex;
   z-index: 1;
   right: 0;
   background: linear-gradient(to left , black 15%, transparent);
