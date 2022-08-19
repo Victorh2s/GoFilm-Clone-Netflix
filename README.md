@@ -7,17 +7,17 @@
 <h1><img alt="Readme" title="Readme" src="./github/clonenetflix.gif"/></h1>
 
 
-## 🚀 Requisitos
+### 🚀 Requisitos
 
-# Clone o projeto
-# npm i or yarn
-# Crie uma conta no site da TheMoviedb
-# Pegue a chave de sua api e a url base
-# Crie uma pasta chamada key e cole as informações requiridas acima
-# Rode o programa com (npm run dev) or (yarn dev)
+- Clone o projeto
+- npm i or yarn
+- Crie uma conta no site da TheMoviedb
+- Pegue a chave de sua api e a url base
+- Crie uma pasta chamada key e cole as informações requiridas acima
+- Rode o programa com (npm run dev) or (yarn dev)
 
 
-### 🚀 Tecnologias
+#### 🚀 Tecnologias
 
 -[Typescript](https://www.typescriptlang.org/)
 -[React.js](https://pt-br.reactjs.org/)
