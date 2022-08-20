@@ -4,7 +4,7 @@
  🎨 Clone da Netflix com Api TheMoviedb, utilizando tecnologias como  node.js, typescript, react.js, storybook, styled-components, next.js.
 
 
-<h1><img alt="Readme" title="Readme" src="./github/clonenetflix.gif"/></h1>
+<img alt="Readme" title="Readme" src="./github/clonenetflix.gif"/>
 
 
 ### 🚀 Requisitos
@@ -17,10 +17,6 @@
 - Rode o programa com (npm run dev) or (yarn dev)
 
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 #### 🚀 Tecnologias
 
 -[Typescript](https://www.typescriptlang.org/)
