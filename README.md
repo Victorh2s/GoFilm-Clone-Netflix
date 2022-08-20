@@ -17,6 +17,10 @@
 - Rode o programa com (npm run dev) or (yarn dev)
 
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 #### 🚀 Tecnologias
 
 -[Typescript](https://www.typescriptlang.org/)
