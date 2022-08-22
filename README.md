@@ -26,6 +26,7 @@
 -[Storybook](https://storybook.js.org/)</br>
 -[Next.js](https://nextjs.org/)</br>
 -[Node.js](https://nodejs.org/en/)</br>
+-[Axios](https://axios-http.com/)
 
 
 Made by Victor Sousa :) [See my linkedin](https://www.linkedin.com/in/victorhdss/)
