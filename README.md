@@ -1,7 +1,7 @@
 
 ## 🚀 GoFilm
 
- 🎨 Clone da Netflix com Api TheMoviedb, utilizando tecnologias como  node.js, typescript, react.js, teste jest, storybook, styled-components, next.js.
+ 🎨 Clone da Netflix com Api TheMoviedb, utilizando tecnologias como  node.js, typescript, react.js, testes jest, storybook, styled-components, next.js.
 
 
 [Untitled.webm](https://user-images.githubusercontent.com/92759987/185722611-59fc9b09-2178-4461-a7bc-89b84afb9dd4.webm)
