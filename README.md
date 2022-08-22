@@ -20,12 +20,12 @@
 
 #### 🚀 Tecnologias
 
--[Typescript](https://www.typescriptlang.org/)
--[React.js](https://pt-br.reactjs.org/)
--[Styled-components](https://styled-components.com/)
--[Storybook](https://storybook.js.org/)
--[Next.js](https://nextjs.org/)
--[Node.js](https://nodejs.org/en/)
+-[Typescript](https://www.typescriptlang.org/)</br>
+-[React.js](https://pt-br.reactjs.org/)</br>
+-[Styled-components](https://styled-components.com/)</br>
+-[Storybook](https://storybook.js.org/)</br>
+-[Next.js](https://nextjs.org/)</br>
+-[Node.js](https://nodejs.org/en/)</br>
 
 
 Made by Victor Sousa :) [See my linkedin](https://www.linkedin.com/in/victorhdss/)
