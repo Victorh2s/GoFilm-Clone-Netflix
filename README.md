@@ -24,6 +24,8 @@
 -[React.js](https://pt-br.reactjs.org/)</br>
 -[Styled-components](https://styled-components.com/)</br>
 -[Storybook](https://storybook.js.org/)</br>
+-[Testes Jest](https://jestjs.io/pt-BR/)</br>
+-[Framer Motion](https://www.framer.com/motion/)</br>
 -[Next.js](https://nextjs.org/)</br>
 -[Node.js](https://nodejs.org/en/)</br>
 -[Axios](https://axios-http.com/)
